@@ -1,0 +1,57 @@
+html {
+    font-family: "please-display-vf", sans-serif;
+font-variation-settings: "wght" 300;
+background-color: cadetblue;
+color: aliceblue;
+}
+h1 {
+    margin-top: 30px;
+}
+#bold {
+    font-size: 40pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.middle {
+    text-align: center;
+}
+.middlex {
+    text-align: center;
+    margin-top: 30px;
+}
+/* {
+    border: 1px solid, salmon;
+    padding: 0.5em;
+} */
+#pita {
+    border: 5px solid, salmon;
+    padding: 3em;
+}
+
+
+#no-pita {
+    border: 5px solid, rgb(189, 241, 195);
+    padding: 3em;
+}
+
+#plates {
+    border: 5px solid, rgb(160, 177, 233);
+    padding: 3em;
+}
+
+#dessert {
+    border: 5px solid, rgb(248, 252, 161);
+    padding: 3em;
+}
+h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section {
+    text-align: center;
+}
+strong
+{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
