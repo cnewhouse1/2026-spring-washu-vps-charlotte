@@ -1,0 +1,9 @@
+body {
+    background-color: pink;
+    color: rgb(1, 116, 104)
+}
+p {
+    font-style: oblique;
+    font-size:medium;
+    line-height:smaller;
+}
