@@ -1,0 +1,41 @@
+html{
+    background-color: rgba(57, 5, 49, 0.819);
+    color: rgb(218, 249, 125); 
+    font-family:'Courier New', Courier, monospace
+}
+h1 {
+    font-family: "tumb", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+h2 {
+    font-family: "tumb", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h3 {
+    font-family: "tumb", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+strong {
+    font-family: "tumb", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+img {
+    width: 300px;
+    height: none;
+    float: inline-end;
+}
+
+#miznon {
+    font-size: 70pt;
+    margin: 0;        /* removes default h1 spacing */
+    margin-bottom: 0.4em;
+    padding: 1;       /* in case any padding exists */
+    border: none;     /* just to be explicit */
+    line-height: 1;
+}
