@@ -6,4 +6,49 @@
 font-family: "ringold-slab", sans-serif;
 font-weight: 400;
 font-style: normal;
+font-size: 60pt;
+text-align: right;
+   position: fixed;
+    right: 35px
+}
+
+h1 {
+font-family: "ringold-slab", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-decoration:underline;
+}
+
+h2 {
+font-family: "ringold-slab", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-decoration:underline;
+}
+
+strong {
+font-family: "ringold-slab", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin: 1em;
+}
+
+p {
+    font-size: 11pt;
+}
+
+footer {
+    font-style: normal;
+}
+
+img {
+    width: 150px;
+    float: inline-start;
+       position: fixed;
+    right: 70px;
+    top: 175px;
 }

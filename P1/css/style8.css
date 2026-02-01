@@ -1,0 +1,80 @@
+html {
+    font-family: "westsac", sans-serif;
+font-weight: 400;
+font-style: normal;
+    background-color: rgb(201, 239, 250); 
+}
+#miznon {
+    font-size: 75pt;
+    color:rgb(17, 69, 24);
+    padding: 0%;
+    
+}
+
+h1 {
+    color:rgb(17, 69, 24);
+    text-align: center;
+    padding: 1em;
+}
+
+#plates {
+    background-color: rgb(17, 69, 24);
+    color: rgb(201, 239, 250);
+    padding: 2em;
+    padding-top: 1em;
+    
+}
+strong {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#plates {
+    background-color: rgb(17, 69, 24);
+    color: rgb(201, 239, 250);
+    padding: 2em;
+    padding-top: 1em;
+    
+}
+#no-pita {
+    background-color: rgb(17, 69, 24);
+    color: rgb(201, 239, 250);
+    padding: 2em;
+    padding-top: 1em;
+    
+}
+
+p
+{
+    text-align: right;
+    text-decoration: none;
+}
+
+#pita {
+    background-color: rgb(201, 239, 250);
+    color: rgb(17, 69, 24);
+    padding: 2em;
+    padding-top: 1em;
+}
+
+.item1 {
+    background-color: rgb(201, 239, 250);
+     color: rgb(17, 69, 24);
+     padding: 2em;
+     margin-right: 150pt;
+}
+a {
+    font-size: 25pt;
+}
+
+img {
+    width: 200pt;
+    float: inline-end;
+}
+
+#footer {
+    background-color: rgb(17, 69, 24);
+    color: rgb(201, 239, 250);
+    padding: 2em;
+    padding-top: 1em;
+}

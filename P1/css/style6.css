@@ -1,7 +1,8 @@
 html{
     background-color: rgba(57, 5, 49, 0.819);
     color: rgb(218, 249, 125); 
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 2em
 }
 h1 {
     font-family: "tumb", sans-serif;
