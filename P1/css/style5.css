@@ -1,13 +1,17 @@
 
 html {
-    font-family: "elza-round-variable", sans-serif;
-font-variation-settings: "wght" 300;
+     background-color: rgba(57, 5, 49, 0.819);
+    color: rgb(218, 249, 125); 
+    font-family: "pacaembu", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 section {
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
 padding: 1em ;
+justify-content: center;
 }
 
 .item strong {
@@ -22,40 +26,75 @@ padding: 1em ;
   font-size: 0.9em;
 }
 
+.item p {
+    opacity: 0;
+    transition: 0.25s ease all;
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
 h1 {
-    font-family: "socko", sans-serif;
-font-weight: 100;
-font-style: italic;
+     font-family: "tumb", sans-serif;
+font-weight: 400;
+font-style: normal;
 text-transform: uppercase;
 text-align: center;
 }
-
 h2 {
+    font-family: "pacaembu", sans-serif;
+font-weight: 400;
+font-style: normal;
+    text-align: center;
+}
+
+.welcome {
+    margin-top: 250px;
     text-align: center;
 }
 h4 {
+    font-weight: 100;
     text-align: center;
 }
 .item {
-  border: 2px solid #444;
+  border: 2px solid rgb(218, 249, 125); 
   padding: 1em;
   width: 220px;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: rgba(57, 5, 49, 0.819);
   border-radius: 6px;
 }
 section div {
-    padding:  1em
+    padding:  1em;
 }
 
 strong {
     font-variant: ;
     text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "pacaembu", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 #miznon
 {
     font-size: 100px;
     font-weight: 900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(57, 5, 49, 0.819);
+    margin: 0;
+    padding-bottom: 27pt;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid rgb(218, 249, 125); 
+}
+
+body {
+    margin-top: 100pt;
+}
+a {
+    color: rgb(218, 249, 125);  
 }
