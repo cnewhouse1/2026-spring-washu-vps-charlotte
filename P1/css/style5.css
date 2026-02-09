@@ -50,13 +50,13 @@ font-style: normal;
 }
 
 .header-left {
-  font-size: 10px;
+  font-size: 15px;
   position: static;
   text-align: left;
 }
 
 .header-right {
-  font-size: 10px;
+  font-size: 15px;
   position: static;
   text-align: right;
 }

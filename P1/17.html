@@ -239,5 +239,16 @@
 <h4>(646) 819-3537</h4>
 <h4><a href="https://www.miznonusa.com/menus/">miznonusa.com</a></h4>
 
+<script>
+  // Only run on touch devices
+  if ('ontouchstart' in window || navigator.maxTouchPoints) {
+    document.querySelectorAll('.item').forEach(item => {
+      item.addEventListener('click', () => {
+        // Toggle 'show' class
+        item.classList.toggle('show');
+      });
+    });
+  }
+</script>
 </body>
 </html>
