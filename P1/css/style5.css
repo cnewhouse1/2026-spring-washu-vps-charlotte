@@ -135,4 +135,7 @@ header {
   .header-left,.header-right {
     font-size: 9px;
   }
+  #miznon {
+     font-size: 20px;
+  }
 }
