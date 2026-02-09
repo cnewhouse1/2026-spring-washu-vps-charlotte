@@ -127,3 +127,12 @@ header {
     align-items: center;
     padding: 1em;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+  .header-left,.header-right {
+    font-size: 9px;
+  }
+}
