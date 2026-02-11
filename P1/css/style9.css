@@ -1,0 +1,47 @@
+html {
+     background-color: rgba(57, 5, 49, 0.819);
+    color: rgb(218, 249, 125); 
+    font-family: "pacaembu", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+}
+a {
+    color: rgb(218, 249, 125);  
+}
+
+h1 {
+    font-family: "tumb", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-transform: uppercase;
+text-align: center;
+}
+
+.final-container {
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically (if height exists) */
+    margin-top: 40px;
+}
+
+.final-box {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    background-color:  rgb(218, 249, 125);    /* choose your color */
+    padding: 30px 60px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgba(57, 5, 49, 0.819);
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.2s ease;
+    font-family: "tumb", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-transform: uppercase;
+}
+
+.final-box:hover {
+    transform: scale(1.05);
+}
