@@ -6,6 +6,7 @@ font-weight: 400;
 font-style: normal;
 text-align: center;
 }
+
 a {
     color: rgb(218, 249, 125);  
 }
@@ -18,6 +19,11 @@ text-transform: uppercase;
 text-align: center;
 }
 
+body {
+    margin: 20px;
+    padding: 40px; 
+}
+
 .final-container {
     display: flex;
     justify-content: center;   /* center horizontally */
@@ -28,7 +34,7 @@ text-align: center;
 .final-box {
     margin-top: -10px;
     margin-bottom: 50px;
-    background-color:  rgb(218, 249, 125);    /* choose your color */
+    background-color:  rgb(218, 249, 125);  
     padding: 30px 60px;
     border-radius: 15px;
     text-decoration: none;
