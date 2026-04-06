@@ -48,7 +48,9 @@ header {
 .right {
     text-align: right;
 }
-
+ #rightt {
+    margin-left: auto;
+ }
 
 .title {
     margin: 20px;
