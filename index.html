@@ -12,6 +12,7 @@
     <h1>Charlotte Newhouse</h1>
         </header>
     <h3>Welcome to my class website!</h3>
+    <p id="date"></p>
     <br><br>
     <div class="title">
     <h2>Exercises</h2>
@@ -33,6 +34,8 @@
           <div id="rightt"><li><a href="reading5.html">Media</a></li></div>
            <div id="rightt"><li><a href="reading6.html">Writing Response 1: Routine </a></li></div>
            <div id="rightt"><li><a href="reading7.html">Writing Response 2: Human-Made Creation</a></li></div>
+           <div id="rightt"><li><a href="reading8.html">Writing Response 3: Cherishing Slowness</a></li></div>
+            <div id="rightt"><li><a href="reading9.html">Writing Response 4: Longing</a></li></div>
     </ul>
     </div>
     <div class="title">
@@ -41,7 +44,7 @@
     <ul>
         <div><li> <a href="P1/index.html"> Project 1. Restaurant or Café Variations</a></li></div>
        <div> <li> <a href="P2/index.html">Project 2. Book → Website</a></li></div>
-       <div> <li>Project 3. Standby Mode</li></div>
+            <div> <li> <a href="P3/index.html">Project 3. Standby Mode</a></li></div>
     </ul>
     </div>
     <div class="title"><h2 class="right">Interview</h2></div>
@@ -50,5 +53,14 @@
        <div id="rightt"> <li> <a href="interview/interview.html">Interview</a> </li></div>
     </ul>
     </div>
+    <script>
+  function updateDate() {
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    const today = new Date().toLocaleDateString(undefined, options);
+    document.getElementById("date").textContent = today;
+  }
+
+  updateDate();
+</script>
     </body>
 </html>
